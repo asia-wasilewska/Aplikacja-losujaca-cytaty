@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  padding: 0 px;
+  margin: 0 px;
+}
+
+body {
+	background: blue;
+  color: white;
+	font-family: 'Raleway', sans-serif;
+}
+
+main {
+	max-width: 1800px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  margin: 100px 0;
+}
+
+.box {
+	width: 800px;
+  text-align: center;
+	margin: 100px auto;
+  font-size: 40px;
+}
+
+button, a {
+	display: block;
+	text-align: center;
+	border: 1px solid white;
+  width: 400px;
+  height: 40px;
+  font-size: 20px;
+  color: white;
+  background-color: blue;
+  text-decoration: none;
+  line-height: 35px;
+  padding: 40 px;
+  margin: 100 px;
+}
+
+a:hover, button:hover {
+	background-color: white;
+	color: blue;
+	cursor: pointer;
+}
+
+.buttons {
+  width: 400px;
+  text-align: center;
+	margin: 100px auto;
+}
+
+.trigger {
+  margin-bottom: 50px;
+}
+ 
